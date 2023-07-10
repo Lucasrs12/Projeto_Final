@@ -1,0 +1,243 @@
+
+body{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(14, 14, 88);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-color: rgb(220, 54, 54);
+    padding: 12px;
+    margin: -10px;
+    position: fixed;
+}
+header{
+    background-color: white;
+    min-height: 80px;
+    box-shadow: 1px 0 15px rgba( 98, 98, 98, 0.29);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.linha{
+    border: 1px rgb(204, 204, 33) solid;
+    width: 300px;
+}
+#Itens{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cont{
+    border: 2px rgb(138, 3, 138) solid !important;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+a:hover:not(.botao){
+    font-size: 30px;
+    transition: 0.5s;
+    text-shadow: 4px 4px 6px;
+}
+.section{
+    color: white;
+    padding: 25px;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+.container-2{
+    background-color: rgb(14, 14, 88);
+    padding: 10px;
+    margin-left: -10px;
+}
+.box5{
+    display: flex;
+    background-color: rgb(14, 14, 88);
+    width: auto;
+    padding: 10px;
+    margin: 0px;
+    color: rgb(218, 33, 33);
+}
+#texto{
+    color: white !important;
+    font-size: 14px;
+    text-align: justify;
+}
+#texto2{
+    color: red;
+    padding: 10px;
+}
+
+
+
+
+img{
+    width: 20%;
+}
+.mouse{
+    width: 100px;
+    height: 80px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.box1{
+    padding: 10px;
+}
+.box1 img{
+    width: 500px;
+}
+h3{
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+}
+h5{
+    color: rgb(242, 242, 242);
+    font-size: 16px;
+}
+h4{
+    color: rgb(200, 200, 12);
+    font-size: 20px;
+}
+
+
+.texto3{
+    display: flex;
+    color: white;
+    margin-bottom: 30px;    
+}
+
+#local{
+    padding-bottom: 20px;
+   
+}
+
+
+
+
+.nav{
+    background-image: url(img3.jpg);
+    margin: -10px;
+    width: 100%;
+    height: 200px;
+    color: white !important;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.box7{
+    top: 10px;
+    display: flex;
+    padding-bottom: 120px;
+    padding-right: 100px;
+}
+#local{
+    margin: 25px;
+    padding: 5px;
+}
+#duracao{
+    margin: 25px;
+    padding: 5px;
+}
+#Desafios{
+    margin: 25px;
+    padding: 5px;
+}
+
+
+
+.div1{
+    border: 3px rgb(76, 5, 134) solid;
+    color: white !important;
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    margin: 25px;
+}
+.div2{
+    border: 3px rgb(76, 5, 134) solid;
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    margin: 25px;
+}
+.div3{
+    border: 3px rgb(76, 5, 134) solid;
+    width: 120px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    margin: 25px;
+}
+
+
+.footer{
+    align-content: center;
+    background-image: url(img4.jpg);
+    margin: -10px;
+}
+.end{
+    border: 3px rgb(76, 5, 134) solid;
+    color: rgb(96, 25, 147);
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    width: 600px;
+    height: 150px;
+    margin-left: 400px;
+    display: flex;
+}
+#Endereço{
+    padding: 5px;
+    padding-left: 400px;
+    color: rgb(224, 184, 37); 
+}
+#map{
+    margin-bottom: -100px;
+    margin-left: 100px;
+    width: 200px;
+    height: 150px;
+}
+.footer2{
+    background-color:rgb(220, 54, 54);
+    color: white;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 0px;
+}
+.box4{
+    display: flex;
+    width: auto;
+    height: 200px;
+}
+
+
